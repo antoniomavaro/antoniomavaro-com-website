@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Font for headers */
+  font-family: 'Fira Code', monospace;
+  /* Font for paragraphs */
+  font-family: 'Roboto Slab', serif;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 660px) {
   
