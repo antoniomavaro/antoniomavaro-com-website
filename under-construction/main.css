@@ -17,11 +17,14 @@ font-size: 25px;
 .top-text {
   position: absolute;
   top: 30px;
+  left: 10px;
 }
 
 .bottom-text {
   position: absolute;
   bottom: 30px;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .middle {
@@ -29,10 +32,13 @@ font-size: 25px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  text-align: center;
+  
+  color: red;
 }
 
 hr {
-  margin: auto;
-  width: 40%;
+  margin: 5px;
+  width: 100%;
+  color: white;
+  border: solid white 3px;
 }
