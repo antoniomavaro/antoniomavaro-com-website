@@ -31,6 +31,5 @@ If you think you have found a vulnerability, please report responsibly. Don't cr
 
 I appreciate any responsible disclosure of vulnerabilities that might impact the integrity of user experience.
 
-# License
-
-Copyright ©2021 antoniomavaro.com
+# Copyright and License 
+Code released under [MIT License](LICENSE.txt). Docs released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
