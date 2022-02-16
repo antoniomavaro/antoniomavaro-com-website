@@ -4,12 +4,13 @@
   // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-    
+
     {
-      "type": "chrome",
+      "type": "msedge",
       "request": "launch",
-      "name": "Launch Chrome against localhost",
-      "file": "${workspaceFolder}/index.html"
+      "name": "Launch Edge",
+      "url": "http://localhost:8080",
+      "file": "${workspaceFolder}/",
     }
   ]
 }
