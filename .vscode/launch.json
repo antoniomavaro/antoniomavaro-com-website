@@ -4,13 +4,12 @@
   // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-
     {
-      "type": "msedge",
+      "type": "pwa-msedge",
       "request": "launch",
       "name": "Launch Edge",
-      "url": "http://localhost:8080",
-      "file": "${workspaceFolder}/",
+      "url": "http://localhost:8000/",
+      "file": "${workspaceFolder}/"
     }
   ]
 }
