@@ -1,8 +1,10 @@
+@import "./palette.css" print, screen;
 html,
 body {
   height: 100%;
   margin: 0;
   font-family: "Fira Code", "Roboto Slab", Arial, Helvetica, sans-serif;
+
 }
 
 * {

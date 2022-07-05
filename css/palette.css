@@ -1,0 +1,86 @@
+/* Color Theme Swatches in Hex */
+.primary {
+  color: #BF0436;
+}
+
+.success {
+  color: #034AA6;
+}
+
+.secondary {
+  color: #F2DE77;
+}
+
+.info {
+  color: #F29B30;
+}
+
+.danger {
+  color: #D90404;
+}
+
+.black {
+  color: #000;
+}
+
+.light {
+  color: #FFF;
+}
+
+/* Color Theme Swatches in RGBA */
+.primary {
+  color: rgba(191, 4, 54, 1);
+}
+
+.success {
+  color: rgba(3, 74, 166, 1);
+}
+
+.secondary {
+  color: rgba(242, 222, 119, 1);
+}
+
+.info {
+  color: rgba(242, 155, 48, 1);
+}
+
+.danger {
+  color: rgba(217, 4, 4, 1);
+}
+
+.black {
+  color: rgba(0, 0, 0, 1);
+}
+
+.light {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.primary {
+  color: hsla(343, 95, 38, 1);
+}
+
+.success {
+  color: hsla(213, 96, 33, 1);
+}
+
+.secondary {
+  color: hsla(50, 82, 70, 1);
+}
+
+.info {
+  color: hsla(33, 88, 56, 1);
+}
+
+.danger {
+  color: hsla(0, 96, 43, 1);
+}
+
+.black {
+  color: hsla(0, 0, 0, 1);
+}
+
+.light {
+  color: hsla(100, 100, 100, 1);
+}
