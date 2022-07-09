@@ -1,19 +1,20 @@
 /* Noto Fonts Colletion*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Display&family=Noto+Sans+Math&family=Noto+Sans+Mono&family=Noto+Sans+Symbols&family=Noto+Serif&family=Noto+Serif+Display&display=swap');
 @import "./palette.css" print, screen;
-html,
-body {
-  height: 100%;
-  margin: 0;
-  font-family: sans-serif, 'Noto Sans', 'Noto Sans Display', 'Noto Sans Math', 'Noto Sans Mono', 'Noto Sans Symbols', 'Noto Serif', 'Noto Serif Display';
-}
 * {
   box-sizing: border-box;
 }
-/* Menu */
-.nav {
-  background-color: #333;
-  overflow: hidden;
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Noto Sans', 'Noto Sans Display', 'Noto Sans Math', 'Noto Sans Mono', 'Noto Sans Symbols', 'Noto Serif', 'Noto Serif Display', sans-serif;
+}
+
+
+/* Right-aligned Navigation Menu */
+nav {
+
 }
 nav a {
   float: left;
@@ -37,19 +38,19 @@ nav a {
   background-color: blue;
   color: black;
 }
+
+/* ======================================= */
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-size: auto;
+  height: 50%;
+  margin: 0;
 }
 .hero-text{
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
 }
 /* Start Columns */
