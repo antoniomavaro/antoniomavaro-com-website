@@ -1,5 +1,6 @@
 /* Noto Fonts Colletion*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Display&family=Noto+Sans+Math&family=Noto+Sans+Mono&family=Noto+Sans+Symbols&family=Noto+Serif&family=Noto+Serif+Display&display=swap');
+@import "./reset.css" print, screen;
 @import "./palette.css" print, screen;
 * {
   box-sizing: border-box;
@@ -11,7 +12,6 @@ body {
   font-family: 'Noto Sans', 'Noto Sans Display', 'Noto Sans Math', 'Noto Sans Mono', 'Noto Sans Symbols', 'Noto Serif', 'Noto Serif Display', sans-serif;
 }
 
-
 /* Right-aligned Navigation Menu */
 nav {
 
@@ -20,9 +20,9 @@ nav a {
   float: left;
   color: black;
   text-align: center;
-  padding: 15px;
   font-size: 16px;
   text-decoration: none;
+  padding: 15px;
 }
 
 .material-symbols-outlined {
@@ -55,13 +55,16 @@ nav a {
   background-repeat: no-repeat;
   background-size: auto;
   height: 50%;
-  margin: 0;
 }
 .hero-text{
   text-align: center;
   color: white;
 }
-/* Start Columns */
+/* Columns Layout*/
+main {
+
+}
+
 .col {
   width: 100%;
   float:left;
